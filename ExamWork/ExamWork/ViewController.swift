@@ -18,7 +18,6 @@ class ViewController: UIViewController {
         checkSortable()
     }
     
-    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         checkAnimatable()
