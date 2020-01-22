@@ -84,7 +84,7 @@ class ButtonAnimatable: Animatable {
         let height = animateObject.frame.height
         let x = animateObject.center.x
         let y = animateObject.center.y
-      
+       
         UIView.animate(withDuration: 0.25, animations: {
             animateObject.frame = CGRect(x: x + 50, y: y, width: width, height: height)
         }) { completion in
