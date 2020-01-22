@@ -24,6 +24,11 @@ fastlane tests
 ----
 
 ## iOS
+### ios distribute
+```
+fastlane ios distribute
+```
+My awesome app
 ### ios custom_lane
 ```
 fastlane ios custom_lane
