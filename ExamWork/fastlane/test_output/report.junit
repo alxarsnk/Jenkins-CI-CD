@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='ExamWorkUITests.xctest' tests='2' failures='0'>
+  <testsuite name='ExamWorkTests.ExamWorkTests' tests='1' failures='0'>
+    <testcase classname='ExamWorkTests.ExamWorkTests' name='test_001' time='0.007'/>
+  </testsuite>
+  <testsuite name='ExamWorkUITests.ExamWorkUITests' tests='1' failures='0'>
+    <testcase classname='ExamWorkUITests.ExamWorkUITests' name='testExample' time='7.119'/>
+  </testsuite>
+</testsuites>
