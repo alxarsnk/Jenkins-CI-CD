@@ -15,4 +15,20 @@ class ExamWorkTests: XCTestCase {
         let variable = true
         XCTAssert(variable, "Variable is true")
     }
+    
+    func test_002() {
+        let variable = false
+        XCTAssertFalse(variable, "Variable is true")
+    }
+    
+    func test_003() {
+        let variable1 = true
+        let variable2 = true
+        XCTAssertEqual(variable1, variable2)
+    }
+    
+    func test_004() {
+        let variable: Int? = nil
+        XCTAssertNil(variable)
+    }
 }
