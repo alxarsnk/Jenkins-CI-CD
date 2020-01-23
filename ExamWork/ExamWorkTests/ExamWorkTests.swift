@@ -30,5 +30,5 @@ class ExamWorkTests: XCTestCase {
     func test_004() {
         let variable: Int? = nil
         XCTAssertNil(variable)
-    }
+    } 
 }
