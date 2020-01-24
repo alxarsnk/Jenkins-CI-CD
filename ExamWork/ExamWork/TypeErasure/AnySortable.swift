@@ -26,7 +26,7 @@ private class SortableBox<SortableBoxObject: Sortable>: AnySortableBox<SortableB
     
     private let boxObject: SortableBoxObject
     
-    init(_ boxObject: SortableBoxObject) {
+    init(_ boxObject: SortableBoxObject) { 
         self.boxObject = boxObject
     }
     
